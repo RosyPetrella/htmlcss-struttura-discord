@@ -103,21 +103,21 @@ main {
 #invite_only {
     display: flex;
     width: 65%;
-    min-height: 350px;
+    min-height: 400px;
     margin: 2.5% 0;
 }
 
 #community {
     display: flex;
     width: 65%;
-    min-height: 350px;
+    min-height: 400px;
     margin: 2.5% 0;
 }
 
 #fandom {
     display: flex;
     width: 65%;
-    min-height: 350px; 
+    min-height: 400px; 
     margin: 2.5% 0;
 }
 
@@ -141,7 +141,7 @@ main {
 .table {
     display: flex;
     width: 65%;
-    min-height: 350px;
+    min-height: 450px;
     margin: 1% 0 2.5% 0;
 
     .big-table-part {
@@ -153,4 +153,43 @@ main {
         min-width: 16%;
         background-color: aquamarine;
     }
+}
+
+/* Footer */
+
+footer {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    width:100%;
+ 
+    .bottom {
+        background-color: rgb(52, 51, 51);
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        min-height: 80px;
+    
+        .bottom-bar{
+            display: flex;
+            background-color: aqua;
+            justify-content: space-between;
+            align-items: center;
+            height: 60px;
+            width: 65%;
+        }
+
+        #bm-logo {
+            background-color: pink;
+            padding: 5px;
+        }
+
+        #bm-btn {
+            background-color: pink;
+            padding: 5px;
+        }
+    }
+
+
+    
 }
