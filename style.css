@@ -1,3 +1,5 @@
+
+
 body {
     margin: 0;
     padding: 0;
@@ -86,24 +88,40 @@ main {
     margin: 2.5% 25%;
 }
 
+.bg-odd {
+    background-color: white;
+}
+
+.bg-even {
+    background-color: lightgray;
+}
 #invite_only {
     display: flex;
     width: 80%;
     min-height: 300px;
     margin: 2.5% 20%;
+}
 
-    .big-part{
-        min-width: 60%;
-        background-color: lightblue;
-    }
+#community {
+    display: flex;
+    width: 80%;
+    min-height: 300px;
+    margin: 2.5% 20%;
+}
 
-    .small-part {
-        min-width: 40%;
-        background-color: pink;
-    }
+#fandom {
+    display: flex;
+    width: 80%;
+    min-height: 300px;
+    margin: 2.5% 20%;
+}
 
+.big-part{
+    min-width: 60%;
+    background-color: lightblue;
+}
 
-
-    
-
+.small-part {
+    min-width: 40%;
+    background-color: pink;
 }
