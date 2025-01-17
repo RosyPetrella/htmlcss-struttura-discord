@@ -1,4 +1,10 @@
-
+:root {
+    --bg-odd: white;
+    --bg-even: lightgray;
+    --bg-dark: rgb(52, 51, 51);
+    --bg-b-p: lightblue;
+    --bg-s-p: pink;
+}
 
 body {
     margin: 0;
@@ -6,12 +12,7 @@ body {
     box-sizing: border-box;
 }
 
-html,
-body {
-    height: 100%;
-}
-
-main {
+html {
     height: 100%;
 }
 
@@ -28,7 +29,6 @@ main {
     justify-content: center;
     align-items: center;
     min-height: 100px;
-    background-color: blueviolet;
 
 }
 .list-style {
@@ -76,11 +76,11 @@ main {
 }
 
 /* Main */
-.jumbo {
+.jumbotron {
     background-color: darkblue;
 }
 
-#jumbotron {
+#jumbo-section {
     display: flex;
     min-height: 300px;
     justify-content: center;
@@ -89,35 +89,20 @@ main {
 }
 
 .bg-odd {
-    background-color: white;
+    background-color: var(--bg-odd);
 }
-
 .bg-even {
-    background-color: lightgray;
+    background-color: var(--bg-even);
 }
 
 .bg-dark {
     background-color: rgb(54, 53, 53);
 }
 
-#invite_only {
+.section {
     display: flex;
     width: 65%;
     min-height: 400px;
-    margin: 2.5% 0;
-}
-
-#community {
-    display: flex;
-    width: 65%;
-    min-height: 400px;
-    margin: 2.5% 0;
-}
-
-#fandom {
-    display: flex;
-    width: 65%;
-    min-height: 400px; 
     margin: 2.5% 0;
 }
 
@@ -130,12 +115,11 @@ main {
 
 .big-part{
     min-width: 60%;
-    background-color: lightblue;
+    background-color: var(--bg-b-p);
 }
-
 .small-part {
     min-width: 40%;
-    background-color: pink;
+    background-color: var(--bg-s-p);
 }
 
 .table {
@@ -155,14 +139,7 @@ main {
     }
 }
 
-/* Footer */
-
-footer {
-    position:fixed;
-    left:0px;
-    bottom:0px;
-    width:100%;
- 
+/* Footer */ 
     .bottom {
         background-color: rgb(52, 51, 51);
         display: flex;
@@ -178,13 +155,7 @@ footer {
             height: 60px;
             width: 65%;
         }
-
-        #bm-logo {
-            background-color: pink;
-            padding: 5px;
-        }
-
-        #bm-btn {
+        .bm-btn {
             background-color: pink;
             padding: 5px;
         }
@@ -192,4 +163,3 @@ footer {
 
 
     
-}
