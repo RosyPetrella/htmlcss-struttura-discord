@@ -9,11 +9,26 @@ body {
     height: 100%;
 }
 
+main {
+    height: 100%;
+}
+
 .debug *{
     border-style: dashed;
 }
 
+.big-container {
+    min-height: 100%;
+}
 
+.small-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    background-color: blueviolet;
+
+}
 .list-style {
     list-style: none;
 }
@@ -69,9 +84,26 @@ body {
     justify-content: center;
     background-color: palevioletred;
     margin: 2.5% 25%;
-   
-   
-    
+}
+
+#invite_only {
+    display: flex;
+    width: 80%;
+    min-height: 300px;
+    margin: 2.5% 20%;
+
+    .big-part{
+        min-width: 60%;
+        background-color: lightblue;
+    }
+
+    .small-part {
+        min-width: 40%;
+        background-color: pink;
+    }
+
+
 
     
+
 }
