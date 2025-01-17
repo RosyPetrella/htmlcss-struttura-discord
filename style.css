@@ -95,29 +95,34 @@ main {
 .bg-even {
     background-color: lightgray;
 }
+
+.bg-dark {
+    background-color: rgb(54, 53, 53);
+}
+
 #invite_only {
     display: flex;
     width: 65%;
-    min-height: 300px;
+    min-height: 350px;
     margin: 2.5% 0;
 }
 
 #community {
     display: flex;
     width: 65%;
-    min-height: 300px;
+    min-height: 350px;
     margin: 2.5% 0;
 }
 
 #fandom {
     display: flex;
     width: 65%;
-    min-height: 300px; 
+    min-height: 350px; 
     margin: 2.5% 0;
 }
 
 #tech {
-    min-height: 600px;
+    min-height: 700px;
     width: 65%;
     margin: 2.5% 0;
     background-color: green;
@@ -131,4 +136,21 @@ main {
 .small-part {
     min-width: 40%;
     background-color: pink;
+}
+
+.table {
+    display: flex;
+    width: 65%;
+    min-height: 350px;
+    margin: 1% 0 2.5% 0;
+
+    .big-table-part {
+        min-width: 34.5%;
+        background-color: salmon;
+    }
+
+    .small-table-part {
+        min-width: 16%;
+        background-color: aquamarine;
+    }
 }
