@@ -13,13 +13,14 @@ body {
     border-style: dashed;
 }
 
+
 .list-style {
     list-style: none;
 }
 
 
-
-.jumbotron {
+/* Header */
+.top {
     background-color: lightblue;
     padding: 0.5rem;
     
@@ -57,3 +58,20 @@ body {
         }
 }
 
+/* Main */
+.jumbo {
+    background-color: darkblue;
+}
+
+#jumbotron {
+    display: flex;
+    min-height: 300px;
+    justify-content: center;
+    background-color: palevioletred;
+    margin: 2.5% 25%;
+   
+   
+    
+
+    
+}
