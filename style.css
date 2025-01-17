@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.debug *{
+    border-style: dashed;
+}
+
+.list-style {
+    list-style: none;
+}
+
+
+
+.jumbotron {
+    background-color: lightblue;
+    padding: 0.5rem;
+    
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around; 
+    margin-right: 20%;
+    margin-left: 20%;
+    background-color: yellow;
+    line-height: 30px;
+    gap: 0px;
+    
+    
+    
+    #logo {
+        text-align: left;
+        min-width: 20%;
+    }
+    
+    #link {
+        text-align: center;
+        min-width: 59%;
+
+        a {
+            text-decoration: none;;
+        }
+    }
+    
+    #login
+        {
+            text-align: right;
+            min-width: 20%;
+        }
+}
+
