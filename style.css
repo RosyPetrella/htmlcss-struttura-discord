@@ -97,23 +97,30 @@ main {
 }
 #invite_only {
     display: flex;
-    width: 80%;
+    width: 65%;
     min-height: 300px;
-    margin: 2.5% 20%;
+    margin: 2.5% 0;
 }
 
 #community {
     display: flex;
-    width: 80%;
+    width: 65%;
     min-height: 300px;
-    margin: 2.5% 20%;
+    margin: 2.5% 0;
 }
 
 #fandom {
     display: flex;
-    width: 80%;
-    min-height: 300px;
-    margin: 2.5% 20%;
+    width: 65%;
+    min-height: 300px; 
+    margin: 2.5% 0;
+}
+
+#tech {
+    min-height: 600px;
+    width: 65%;
+    margin: 2.5% 0;
+    background-color: green;
 }
 
 .big-part{
