@@ -129,12 +129,12 @@ html {
     margin: 1% 0 2.5% 0;
 
     .big-table-part {
-        min-width: 34.5%;
+        flex-grow: 2;
         background-color: salmon;
     }
 
     .small-table-part {
-        min-width: 16%;
+        flex-grow: 1;
         background-color: aquamarine;
     }
 }
